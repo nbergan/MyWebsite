@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Author: Nathanial Bergan
+     Date: 2-June-2018
+-->
+<html>
+<title> Nate Bergan - About </title>
+<style>
+body, html{
+    height:100%;
+    margin:0;
+    background: url("images/BlackOrangeBackground1.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: azure;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: rgb(15, 15, 15);
+    }
+
+    .active {
+        background-color: rgb(241, 93, 14);
+    }
+    .firstDivContainer{
+        height: 40%;
+        position: relative;
+    }
+    .firstDivContent{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 3.0em;
+        text-shadow: 2px 2px 5px black;
+        color: azure;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+        .grid-container1 {
+        display: grid;
+        grid-column-gap: 80px;
+        grid-row-gap: 50px;
+        grid-template-columns: auto;
+        background-color: rgb(15, 15, 15);
+        padding: 40px;
+        opacity: 0.9;
+    }
+    .grid-item1 {
+        background-color: rgb(241, 93, 14);
+        border: 8px outset rgb(241, 93, 14);
+        padding: 5px;
+        font-size: 1.3em;
+        font-family: sans-serif;
+        text-align: center;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <!-- NAVIGATION BAR -->
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="art.html">Art</a></li>
+    <li><a href="code.html">Code</a></li>
+    <li><a href="games.html">Games</a></li>
+    <li style="float:right"><a class="active"     href="about.html">About</a></li>
+    </ul>
+    <!-- NAVIGATION BAR -->
+
+    <!-- ------------------------------------------ -->
+   
+<!-- FIRST SECTION -->    
+<div class = "firstDivContainer">
+    <div class = "firstDivContent">
+    About 
+    <br>    
+    Nate Bergan
+    </div>   
+</div>
+<!-- FIRST SECTION -->
+    
+<!-- ------------------------------------------- -->
+    
+<!-- SECOND SECTION -->
+<div class = "grid-container1">
+    <div class = "grid-item1"> Picture </div>
+    <div class = "grid-item1"> 
+    I am a hard working military veteran with leadership and communication skills. I just finished working as a Software Engineering Intern at Optum (a subsidiary of UnitedHealth Group) during the summer of 2017. I am also a highly creative Junior Software Engineering student at Arizona State University who has a passion for learning. 
+    </div>  
+    <div class = "grid-item1"> <img style = "width: 100%" src = "images/NateOptum1.JPG" alt = "Nate Optum Run"> </div>
+    <div class = "grid-item1">
+    I love learning about computers and have a fascination with technology. I want to make the world a better place by using technology to improve people's lives. I have experience with the programming languages of Java, Python and C++. I am excited to see what project I can tackle next! 
+    </div>
+    <div class = "grid-item1"> Picture </div>
+    
+</div>
+<!-- SECOND SECTION -->
+    
+    
+    
+</body>
+</html>
