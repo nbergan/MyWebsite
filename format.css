@@ -36,7 +36,7 @@ li a {
 li a:hover:not(.active) {
     background-color: rgb(15, 15, 15);
 }
-    
+   
 a:link{
     text-decoration: none;
     color: azure;
@@ -108,14 +108,11 @@ a:visited{
     cursor: pointer;
 }
 
-.resumeButtonDiv{
-    margin: auto;
-    width: 100%;
-    padding-left: 40%;
-    padding-bottom: 50px;
-}
 
 .resumeButton{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
     background: rgb(241, 93, 14);
     height: 100px;
     width: 300px;
@@ -125,4 +122,12 @@ a:visited{
     font-family: sans-serif;
     text-align: center;
     cursor: pointer;
+}
+
+a.bigButton{
+    color: black;
+    background: rgb(241, 93, 14);
+    padding: 30px; /*Change this*/
+    border: outset;
+    border-color: rgb(241, 93, 14);
 }
